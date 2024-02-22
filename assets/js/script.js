@@ -87,3 +87,20 @@ function startQuiz(){
     showQuestion();
 }
 
+function showQuestion(){
+    resetState()
+    let currentQuestion = questions[currentQuestionNumber];
+    let questionNo = currentQuestionNumber + 1;
+    questionElement.innerHTML = questionNo + ")  " + currentQuestion.
+    question;
+
+    currentQuestion.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButtons.appendChild(button);
+        
+        
+    })
+}
+
