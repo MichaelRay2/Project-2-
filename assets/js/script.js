@@ -147,9 +147,10 @@ function handleNextButton(){
     if(currentQuestionNumber < questions.length){
         showQuestion();
     }else{
-        startQuiz();
+        showScore();
     }
 }
+
 
 
 
