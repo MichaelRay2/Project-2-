@@ -133,6 +133,25 @@ function selectAnswer(e){
     nextButton.style.display = "block";
 }
 
+// This function resets the state, erasing the next button and sets the question element to have text giving the user a score
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "play Again";
+    nextButton.style.display = "block";
+}
+
+// Adds 1 to the question number when the next button is clicked and checks if the final question has been reached.
+function handleNextButton(){
+    currentQuestionNumber++;
+    if(currentQuestionNumber < questions.length){
+        showQuestion();
+    }else{
+        startQuiz();
+    }
+}
+
+
 
 
     
