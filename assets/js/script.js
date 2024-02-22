@@ -4,8 +4,8 @@ const questions = [
         answers: [
             { text: "Barcelona", correct: false},
             { text: "Madrid", correct: true},
-            { text: "Sevilla", correct: false}
-            { text: "Valencia", correct: false}
+            { text: "Sevilla", correct: false},
+            { text: "Valencia", correct: false},
         ]
     },
     { 
@@ -90,7 +90,7 @@ function startQuiz(){
 function showQuestion(){
     resetState()
     let currentQuestion = questions[currentQuestionNumber];
-    let questionNo = currentQuestionNumber + 1;
+    let questionNo = currentQuestionNumber+ 1;
     questionElement.innerHTML = questionNo + ")  " + currentQuestion.
     question;
 
@@ -118,9 +118,9 @@ function selectAnswer(e){
     const selectedBtn = e.target;
     // This adds the class "correct" to the button with the correct answer
     const isCorrect = selectedBtn.dataset.correct === "true";
-    if (isCorrect) {
+    if (isCorrect){
         selectedBtn.classList.add("correct");
-        score + 1;
+        score++;
     }else{
         selectedBtn.classList.add("incorrect");
     }
@@ -161,7 +161,7 @@ nextButton.addEventListener("click", ()=>{
 
 startQuiz();
 
-
+console.log("hello")
 
 
 
