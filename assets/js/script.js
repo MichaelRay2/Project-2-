@@ -113,4 +113,26 @@ function resetState(){
     }
 }
 
+// This is an event function that will add 1 to the user's score if they get the answer correct
+function selectAnswer(e){
+    const selectedBtn = e.target;
+    // This adds the class "correct" to the button with the correct answer
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if (isCorrect) {
+        selectedBtn.classList.add("correct");
+        score + 1;
+    }else{
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+    nextButton.style.display = "block";
+}
 
+
+
+    
