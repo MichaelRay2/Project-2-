@@ -1,3 +1,4 @@
+// Array of questions and answered which are either assigned true or false
 const questions = [
     {
         question: "Which is the capital city of Spain?",
@@ -56,8 +57,8 @@ const questions = [
     {
         question: "Which is the capital city of Brazil?",
         answers: [
-            { text: "Sao Paulo", correct: true},
-            { text: "Brasilia", correct: false},
+            { text: "Sao Paulo", correct: false},
+            { text: "Brasilia", correct: true},
             { text: "Rio de Janeiro", correct: false},
             { text: "Belo Horizonte", correct: false},
         ]
@@ -73,10 +74,12 @@ const questions = [
     } 
 ];
 
+// Assigning the on page text that we want to change depending on the question
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-button");
 
+// variables depending on where user is up to on quiz and their score
 let currentQuestionNumber = 0;
 let score = 0;
 
@@ -161,7 +164,6 @@ nextButton.addEventListener("click", ()=>{
 
 startQuiz();
 
-console.log("hello")
 
 
 
