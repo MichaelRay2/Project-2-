@@ -6,5 +6,16 @@ body {
     text-align: center;
 }
 .heading {
-
+    text-align: center;
+    font-size: 2.5rem;
+}
+.quiz {
+    background-color: blue;
+    box-sizing: border-box;
+    width: 90%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 800px;
+    margin: auto;
+    padding: 2%;
 }
