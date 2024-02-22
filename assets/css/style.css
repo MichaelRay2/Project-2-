@@ -1,5 +1,7 @@
 body {
-    background-image: url("https://michaelray2.github.io/Project-2-/assets/images/world.png");
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(assets/images/world.png);
+    background-position: center;
+    background-size: auto;
     font-family: sans-serif;
     text-align: center;
 }
