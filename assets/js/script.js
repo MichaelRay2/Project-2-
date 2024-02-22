@@ -150,6 +150,17 @@ function handleNextButton(){
         showScore();
     }
 }
+// This event listener will respond once clicked. The if statement asks if we are on the final question. If not, the next button appears, else the quiz starts again.
+nextButton.addEventListener("click", ()=>{
+    if(currentQuestionNumber < questions.length){
+        handleNextButton();
+    }else{
+        startQuiz();
+    }
+});
+
+startQuiz();
+
 
 
 
