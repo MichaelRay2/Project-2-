@@ -70,5 +70,6 @@ const questions = [
             { text: "Zurich", correct: false},
             { text: "Bern", correct: true},
         ]
-    } ]
+    } 
+];
 
