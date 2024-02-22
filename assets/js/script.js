@@ -80,5 +80,10 @@ const nextButton = document.getElementById("next-button");
 let currentQuestionNumber = 0;
 let score = 0;
 
-
+function startQuiz(){
+    currentQuestionNumber = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
 
