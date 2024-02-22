@@ -10,7 +10,7 @@ body {
     font-size: 2.5rem;
 }
 .app {
-    background: #fff;
+    background: blue;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -18,7 +18,7 @@ body {
     padding: 30px;
 }
 .quiz-area {
-    background-color: blue;
+    background-color: green;
     box-sizing: border-box;
     width: 90%;
     height: 65vh;
@@ -39,4 +39,16 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s;
+}
+#next-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
 }
