@@ -1,4 +1,4 @@
-
+/* Setting styles that are applicable to entire page */
 body {
     background-image: linear-gradient(rgba(250, 250, 251, 0.7),rgb(36, 96, 1)), url("https://michaelray2.github.io/Project-2-/assets/images/world.png");
     background-position: center;
@@ -7,21 +7,25 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
+/* Setting font size of heading */
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
+/* Setting box that will contain everything game related. */
 .full-area {
-    background: blue;
+    background: green;
     width: 90%;
     max-width: 450px;
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
 }
+/* This is the quiz game area which I want to display as a box within the full game.  */
 .quiz-area {
-    background-color: green;
+    background-color: paleturquoise;
     box-sizing: border-box;
+    border-radius: 10px;
     width: 90%;
     height: 50vh;
     max-height: 500px;
@@ -29,6 +33,7 @@ body {
     margin: auto;
     padding: 4%;
 }
+/* This is the style I want the button to have in its default state */
 .btn {
     background: #fff;
     color: #222;
@@ -38,18 +43,20 @@ body {
     padding: 10px;
     margin: 10px 0;
     text-align: left;
-    border-radius: 4px;
+    border-radius: 12px;
     cursor: pointer;
     transition: all 0.3s;
 }
-
+/* This style style the buttons once an answer has been picked */
 .btn:hover:not([disbaled]){
     background: #222;
     color: #fff;
 }
+/* This style will prevent another button from being selected after one has been picked */
 .btn:disabled{
     cursor: no-drop;
 }
+/* This is the style for the next button that will only show once an answer has been picked */
 #next-button {
     background: #001e4d;
     color: #fff;
@@ -61,12 +68,15 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
+/* The backgrond colour of the button we want if a correct answer is picked */
 .correct {
     background: palegreen;
 }
+/* The backgrond colour of the button we want if a correct answer is picked */
 .incorrect {
     background: palevioletred;
 }
+/* On smaller screens I would like it if there is less apce between the headers and the game area */
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 .full-area {
