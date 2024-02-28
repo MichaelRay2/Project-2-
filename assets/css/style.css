@@ -2,7 +2,7 @@
 body {
     background-image: linear-gradient(rgba(250, 250, 251, 0.7),rgb(36, 96, 1)), url("https://michaelray2.github.io/Project-2-/assets/images/world.png");
     background-position: center;
-    background-size: 80%;
+    background-size: 100%;
     background-repeat: no-repeat;
     font-family: sans-serif;
     text-align: center;
@@ -14,7 +14,7 @@ body {
 .full-area {
     background: blue;
     width: 90%;
-    max-width: 600px;
+    max-width: 450px;
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
@@ -24,10 +24,10 @@ body {
     box-sizing: border-box;
     width: 90%;
     height: 50vh;
-    max-height: 450px;
+    max-height: 500px;
     max-width: 800px;
     margin: auto;
-    padding: 2%;
+    padding: 4%;
 }
 .btn {
     background: #fff;
@@ -67,3 +67,8 @@ body {
 .incorrect {
     background: palevioletred;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+}
+
