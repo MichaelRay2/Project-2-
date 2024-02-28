@@ -83,6 +83,7 @@ const nextButton = document.getElementById("next-button");
 let currentQuestionNumber = 0;
 let score = 0;
 
+// This function will capture all of the data for the start of the quiz
 function startQuiz(){
     currentQuestionNumber = 0;
     score = 0;
@@ -90,6 +91,7 @@ function startQuiz(){
     showQuestion();
 }
 
+// This function will pull the question that the user needs to be shown and the question Number.
 function showQuestion(){
     resetState()
     let currentQuestion = questions[currentQuestionNumber];
@@ -109,6 +111,7 @@ function showQuestion(){
     });
 }
 
+// This function aims to reset the overall state of the Game. This is done by removing the next button and removing the firstchild.
 function resetState(){
     nextButton.style.display = "none";
     while(answerButtons.firstChild){
@@ -127,6 +130,7 @@ function selectAnswer(e){
     }else{
         selectedBtn.classList.add("incorrect");
     }
+    // This pulls the array of options that the user will have to choose from and it distinguishes the correct answers from icorrect.
     Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true"){
             button.classList.add("correct");
@@ -161,7 +165,7 @@ nextButton.addEventListener("click", ()=>{
         startQuiz();
     }
 });
-
+// Starts the program
 startQuiz();
 
 
