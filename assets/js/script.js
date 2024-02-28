@@ -48,10 +48,10 @@ const questions = [
     {
         question: "Which is the capital city of India?",
         answers: [
-            { text: "Beijing", correct: true},
-            { text: "Shanghai", correct: false},
-            { text: "Wuhan", correct: false},
-            { text: "Hong Kong", correct: false},
+            { text: "Kolkata", correct: false},
+            { text: "Mumbai", correct: false},
+            { text: "Karachi", correct: false},
+            { text: "New Delhi", correct: true},
         ]
     },
     {
