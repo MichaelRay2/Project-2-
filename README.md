@@ -111,14 +111,29 @@ The page is structured in a user-friendly and intuitive way.
 ## Validation
 
 ### HTML Validation
+<details><summary>HTML</summary>
+<img src="docs/validation/html-validator.png"></details>
 
 ### CSS Validation
+<details><summary>CSS</summary>
+<img src="docs/validation/css-validator.png"></details>
 
 ### JavaScript Validation
+<details><summary>JS</summary>
+<img src="docs/validation/js-validator.png"></details>
 
 ### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+
+<details><summary>Contrast</summary>
+<img src="docs/validation/contrast-validator.png"></details>
 
 ### Performance
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+<details><summary>Google Lighthouse</summary>
+<img src="docs/validation/lighthouse-score.png"></details>
+
+
 
 ### Performing tests on various devices
 The website was tested on the following devices:
