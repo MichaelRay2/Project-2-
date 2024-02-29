@@ -1,39 +1,188 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Capital Cities Quiz
+(Developer: Michael Ray)
 
-Welcome,
+![Mockup image] (docs/am-i-responsive.png)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Live Webpage](https://michaelray2.github.io/Project-2-/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Table of Content
 
-## Codeanywhere Reminders
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+    4. [Site Owner Stories](#site-owner-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [JavaScript Validation](#javascript-validation)
+    4. [Accessibility](#accessibility)
+    5. [Performance](#performance)
+    6. [Device testing](#performing-tests-on-various-devices)
+    7. [Browser compatibility](#browser-compatability)
+    8. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+    1. [EmailJS API](#emailjs-api)
+10. [Credits](#credits)
+11. [Acknowledgments](#acknowledgments)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Project Goals
+Create an interactive quiz around World Capital Cities where the user is presented with a score out of 8 at the end.
 
-`python3 -m http.server`
+### User Goals
+- Play a fun and engaging quiz and test the user's knowledge on capital cities.
+- The game should be fully responsive and capable of being played on different devices.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## User Experience
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Target Audience
+- Casual Quizers.
+- People who want to test their knowledge of world capital cities.
+- People who have a spare 2 minutes and want to play a game to pass the time.
 
-`http_server`
+### User Requirements and Expectations
+- A simple and intuitive game to play
+- Quick and easy to play.
+- Functions that work as expected where correct answers are stored as correct.
+- Nicely presented for the user with a relevent background image.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories
+- As a user, I want to be able to begin to play the game.
+- As a user, I want to be able to select an incorrect answer and the correct answer should be revealed.
+- As a user, I want to be given a score once I have completed the game.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Site Owner Stories
+- I want to be able to send the quiz to friends and family so they can see how many points they can score.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design 
 
-To log into the Heroku toolbelt CLI:
+### Design Choices
+The game was designed to have a calming and relaxing effect on the user.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Colour
+The colour scheme used on the page is predominatley green. This suits the background image which shows a green planet Earth.
+The background colour transitions from white to green in a linear gradient. This helps the black text at the top to stand-out.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Fonts 
+I have decided to use the sans-serif font as this is my favourite.
 
----
+### Structure
+The page is structured in a user-friendly and intuitive way.
 
-Happy coding!
+- A homepage with a brief introduction.
+- A quiz area with a question and 4 different buttons to choose from.
+- A 404 page.
+
+## Technologies Used
+
+### Languages
+- HTML 
+- CSS
+- JavaScript
+
+### Framework & Tools
+- Visual Studio Code
+- Git
+- GitHub
+- Font Awesome
+- W3C Markup validation service
+- W3C Jigsaw CSS validation service 
+
+## Features
+- The site consists of one page with a game area where the user will interactive with.
+- The user is presented with feedback in the form of s score once the last question has been answered.
+
+### 404 message
+- Provides the user witha way to return to the game after clicking on a broken link.
+
+## Validation
+
+### HTML Validation
+
+### CSS Validation
+
+### JavaScript Validation
+
+### Accessibility
+
+### Performance
+
+### Performing tests on various devices
+The website was tested on the following devices:
+
+- LG 4K Ultrafine monitor
+- 14' mac book pro
+- Iphone 14
+- Iphone 9
+
+### Browser Compatability
+The website was tested on the following browsers:
+
+- Google Chrome
+- Safari
+
+### Testing User Stories
+
+1. As a user, I want to be able to begin to play the game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Start screen | Click on the answer to the first question| The game's screen feedbacks to correct answer | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-story1.png">
+</details>
+
+2. As a user, I want to be able to select an incorrect answer and the correct answer should be revealed.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Start screen | Click on an incorrect answer| The correct answer is highlighted in pale green| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-story2.png">
+</details>
+
+3. - As a user, I want to be given a score once I have completed the game.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Start screen | Answer the final question| The user is given a score out of 8| Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-story3.png">
+</details>
+
+## Deployment
+The site was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab along the top of the page.
+2. On the left hand menu click on Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is live at https://michaelray2.github.io/Project-2-/"
+
+## Bugs
+When used on iphone, the answer that the user pick remains the black colour rather than changing to the colour that depends on whether the answer selected was correct. With more time this would be an issue I would like to research on how to fix.
+
+## Credits
+The background image was taken from Shutterstock. Credit: Jane Kelly.
+
+### Code
+- The code used to support me with this project were as follows:
+1. JavaScript Techniques from the Love Maths Walkthrough project facilitated by the Code Institute.
+2. JavaScriot Techniques as well as button design inspiration from taken from a YouTube video published by GreatStack https://www.youtube.com/watch?v=PBcqGxrr9g8.
+
+## Acknowledgments
+I would like to thank my mentor Mo Shami for his feedback and guidance.
