@@ -93,7 +93,7 @@ function startQuiz(){
 
 // This function will pull the question that the user needs to be shown and the question Number.
 function showQuestion(){
-    resetState()
+    resetState();
     let currentQuestion = questions[currentQuestionNumber];
     let questionNo = currentQuestionNumber+ 1;
     questionElement.innerHTML = questionNo + ")  " + currentQuestion.
