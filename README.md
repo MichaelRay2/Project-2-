@@ -100,6 +100,8 @@ The page is structured in a user-friendly and intuitive way.
 - Font Awesome
 - W3C Markup validation service
 - W3C Jigsaw CSS validation service 
+- Hint JS validator
+- Google Lighthouse
 
 ## Features
 - The site consists of one page with a game area where the user will interactive with.
