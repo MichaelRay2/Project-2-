@@ -193,7 +193,10 @@ The site was deployed using GitHub Pages by following these steps:
 4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is live at https://michaelray2.github.io/Project-2-/"
 
 ## Bugs
-When used on iphone, the answer that the user pick remains the black colour rather than changing to the colour that depends on whether the answer selected was correct. With more time this would be an issue I would like to research on how to fix.
+1. When used on iphone, the answer that the user pick remains the black colour rather than changing to the colour that depends on whether the answer selected was correct. With more time this would be an issue I would like to research on how to fix.
+2. When the application would open on mobile devices, the heading text was too large. I implemented a media query in order to fix this issue.
+3. The user was able to select multiple answers in the quiz which was ruining the user experience. I learned how to implement the JS function that would prevent the user from being able to pick multiple answers.
+4. During development, the next button would be available before an answer had been clicked meaning the user could andvance through the quiz without answering the questions. I fixed this by learning how to implement the necesarry css (display: none) along with while loops to solve this issue.
 
 ## Credits
 The background image was taken from Shutterstock. Credit: Jane Kelly.
