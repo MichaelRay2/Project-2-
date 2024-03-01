@@ -1,7 +1,7 @@
 # Capital Cities Quiz
 (Developer: Michael Ray)
 
-![Mockup image] (docs/am-i-responsive.png)
+![Mockup image](docs/am-i-responsive.png)
 
 ![Live Webpage](https://michaelray2.github.io/Project-2-/)
 
