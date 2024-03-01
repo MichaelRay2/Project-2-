@@ -35,7 +35,6 @@
     8. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 9. [Deployment](#deployment)
-    1. [EmailJS API](#emailjs-api)
 10. [Credits](#credits)
 11. [Acknowledgments](#acknowledgments)
 
@@ -106,9 +105,12 @@ The page is structured in a user-friendly and intuitive way.
 ## Features
 - The site consists of one page with a game area where the user will interactive with.
 - The user is presented with feedback in the form of s score once the last question has been answered.
+- Once the user selects clicks on an answer button, it will appear green if correct and red if not correct.
+- Once the user has selected an answer, a next button will appear that will allow the user to advance onto the next question.
+- The user will be unable to click on another button once a single answer has been selected.
 
 ### 404 message
-- Provides the user witha way to return to the game after clicking on a broken link.
+- Provides the user with a way to return to the game after clicking on a broken link.
 
 ## Validation
 
@@ -173,7 +175,7 @@ The website was tested on the following browsers:
 <img src="docs/user-stories-testing/user-story2.png">
 </details>
 
-3. - As a user, I want to be given a score once I have completed the game.
+3. As a user, I want to be given a score once I have completed the game.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -197,7 +199,7 @@ When used on iphone, the answer that the user pick remains the black colour rath
 The background image was taken from Shutterstock. Credit: Jane Kelly.
 
 ### Code
-- The code used to support me with this project were as follows:
+The code used to support me with this project were as follows:
 1. JavaScript Techniques from the Love Maths Walkthrough project facilitated by the Code Institute.
 2. JavaScriot Techniques as well as button design inspiration from taken from a YouTube video published by GreatStack https://www.youtube.com/watch?v=PBcqGxrr9g8.
 
