@@ -76,7 +76,7 @@ The colour scheme used on the page is predominatley green. This suits the backgr
 The background colour transitions from white to green in a linear gradient. This helps the black text at the top to stand-out.
 
 ### Fonts 
-I have decided to use the sans-serif font as this is my favourite.
+I have decided to use the Open Sans font as this is my favourite.
 
 ### Structure
 The page is structured in a user-friendly and intuitive way.
